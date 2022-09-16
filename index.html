@@ -8,85 +8,90 @@
     </head>
 
     <body>
-        <div class="startInfo">
-            <img src="12.jpeg" alt="Картинка проеблась" class="avatar">
-            <h1>Алексей Колесник</h1>
-            <p>Я только учусь (да, <strong>опять</strong>) фронтенд разрааботке.</p>
-            <p>В геймдеве не пошло. Точнее пошло, но я не могу найти там работу</p>
+
+        <div class="container">
+            <div class="startInfo ">
+                <img src="12.jpeg" alt="Картинка проеблась" class="avatar">
+
+                <div class="info-text">
+                    <h1>Алексей Колесник</h1>
+                    <p>Я только учусь (да, <strong>опять</strong>) фронтенд разрааботке.</p>
+                    <p>В геймдеве не пошло. Точнее пошло, но я не могу найти там работу</p>
+
+                    <h4>Мои социальные сети</h4>
+                    <a href="https://vk.com/id19351099" target="_blank">VK</a>
+                    |
+                    <a href="https://google.com" target="_blank">Google</a>
+                </div>
+
+            </div>
+
+            <div class="card bg-yellow">
+                <h2>Мои хобби</h2>
+                <ol class="list">
+                    <li>Есть</li>
+                    <li>Спать</li>
+                </ol>
+            </div>
+
+            <div class="card bg-green">
+                <h2>Опыт работы</h2>
+                <table cellpadding="15" class="table">
+                    <tr>
+                        <td>Курчатовский Институт</td>
+                        <td>Оператор ЧПУ</td>
+                        <td>2010 - 2022</td>
+                    </tr>
+                    <tr>
+                        <td>22byte</td>
+                        <td>Unity Developer</td>
+                        <td>2022 - 2022</td>
+                    </tr>
+                </table>
+            </div>
+
+            <div class="card  bg-red">
+                <h2>Youtube</h2>
+                <ul class="link-list">
+                    <li>
+                        <a href="https://www.youtube.com/channel
+                            /UCsEqpT3Qf-MgibQd8lXvzUA">My Youtube Chanel</a>
+                    </li>
+                </ul>
+            </div>
+
+            <div class="contact">
+                <h2>Связь со мной</h2>
+                <form>
+                    <div class="row">
+                        <div class="form-group">
+                            <label for="name">Ваша имя:</label>
+                            <input type="text" id="name" placeholder="Ваше Имя">
+                        </div>
+
+                        <div class="form-group">
+                            <label for="email">Ваша почта:</label>
+                            <input type="text" id="email" placeholder="email">
+                        </div>
+                    </div>
+
+                    <div class="form-group">
+                        <label for="text">Ваше сообщение:</label>
+                        <textarea id="text" placeholder="Сообщение" cols="25" rows="5"></textarea>
+                    </div>
+
+                    <input class="btn" type="submit" value="Связаться">
+                </form>
+            </div>
+
+            <div class="position">
+                <div class="box"></div>
+            </div>
 
         </div>
 
-        <hr>
-        <h2>Мои социальные сети</h2>
-        <ul>
-            <li>
-                <a href="https://vk.com/id19351099" target="_blank">VK</a>
-            </li>
-            <li>
-                <a href="https://google.com" target="_blank">Google</a>
-            </li>
-        </ul>
 
-        <hr>
-        <h2>Мои хобби</h2>
-        <ol>
-            <li>Есть</li>
-            <li>Спать</li>
-        </ol>
 
-        <hr>
-        <h2>Опыт работы</h2>
-        <table cellpadding="15">
-            <tr>
-                <th>Компания</th>
-                <th>Должность</th>
-                <th>Год</th>
-                <th>Обязанности</th>
-                <th>Причина увольнения</th>
-            </tr>
-            <tr>
-                <td>Курчатовский Институт</td>
-                <td>Оператор ЧПУ</td>
-                <td>2010 - 2022</td>
-                <td>Написание проограмм для станков с программным управлением</td>
-                <td>Работа кончилась. Сиделли неделями</td>
-            </tr>
-            <tr>
-                <td>22byte</td>
-                <td>Unity Developer</td>
-                <td>2022 - 2022</td>
-                <td>Разработка мобильных игр на Unity</td>
-                <td>Закрылся наш отдел. Оставили только андройдщиков-нативщиков</td>
-            </tr>
-        </table>
-
-        <hr>
-        <h2>Youtube</h2>
-        <a href="myYouTube.html">Мой youtube канал</a>
-
-        <hr>
-        <br>
-
+        <div style="margin-bottom: 300px"></div>
     </body>
-
-    <footer>
-        <h2>Связь со мной(половая)</h2>
-        <form>
-            <label for="name">Ваша имя</label>
-            <input type="text" id="name" placeholder="Ваше Имя">
-
-            <br>
-            <label for="email">Ваша почта</label>
-            <input type="text" id="email" placeholder="email">
-
-            <br>
-            <label for="text">Ваше сообщение</label>
-            <br>
-            <textarea id="text" placeholder="Сообщение" cols="25" rows="5"></textarea>
-
-            <br>
-            <input type="submit" value="Связаться">
-        </form>
-    </footer>
-
 </html>
